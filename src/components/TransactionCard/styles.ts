@@ -40,7 +40,7 @@ export const Category = styled.View`
 export const Icon = styled(Feather)`
     font-size: ${RFValue(20)}px;
     color: ${({ theme }) => theme.colors.text };
-` as unknown as typeof Feather;
+`;
 
 export const CategoryName = styled.Text`
     font-size: ${RFValue(14)}px;
